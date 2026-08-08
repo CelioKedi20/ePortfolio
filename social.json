@@ -1,0 +1,37 @@
+[
+  {
+    "org": "ATECAP",
+    "role": "Membre du Conseil d'Administration",
+    "period": "septembre 2025 — Présent",
+    "description": "Association étudiante troyenne qui vise à faciliter l'intégration des étudiants internationaux, à promouvoir la diversité culturelle et à organiser des événements phares comme la semaine culturelle ou CAP Week",
+    "icon": "fa-solid fa-hands-helping"
+  },
+  {
+    "org": "Cordées de la réussite",
+    "role": "Etudiant engagé",
+    "period": "octobre 2025 — Présent",
+    "description": "Animateur d'ateliers pour les collégiens et lycéens afin de les sensibiliser aux métiers de l'ingénierie et de l'informatique, et de les accompagner dans leur orientation.",
+    "icon": "fa-solid fa-people-group"
+  },
+  {
+    "org": "Junior Conseil UTT",
+    "role": "Directeur du Système d'Information (DSI)",
+    "period": "novembre 2025 — juin 2026",
+    "description": "L'association met en relation les compétences des étudiants-ingénieurs de l'UTT aux besoins concrets des entreprises. Au sein du pôle SI, nous faisons de la gestion des ressources informatiques, la maintenance du site web et du support technique.",
+    "icon": "fa-solid fa-hands-helping"
+  },
+  {
+    "org": "Pépite Champagne-Ardenne",
+    "role": "Etudiant entrepreneur",
+    "period": "décembre 2025 — Présent",
+    "description": "Porteur de projet et participant actif aux ateliers organisés au sein de la Technopole de l'Aube",
+    "icon": "fa-solid fa-people-group"
+  },
+  {
+    "org": "Université de Technologie de Troyes - Service des Sports",
+    "role": "Membre actif",
+    "period": "septembre 2025 — Présent",
+    "description": "Participation aux séances de basketball et du 10km encadrés par le Service des Sports.",
+    "icon": "fa-solid fa-laptop-code"
+  }
+]

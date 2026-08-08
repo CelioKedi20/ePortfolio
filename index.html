@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Celio Gilles Armand WOUCHE KEDI —  Etudiant Ingénieur informatique et Système d'Information: projects, stack, and contact."
+    />
+    <title>Portfolio de Celio WOUCHE KEDI</title>
+
+    <!-- Favicon (replace with your own icon file) -->
+    <link rel="icon" href="favicon.ico" sizes="any" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website portfolio" />
+    <meta
+      property="og:title"
+      content="Celio Gilles Armand WOUCHE KEDI — Etudiant Ingénieur informatique et Système d'Information"
+    />
+    <meta
+      property="og:description"
+      content="Selected projects, stack, and contact."
+    />
+    <meta property="og:image" content="og-cover.jpg" />
+    <meta name="theme-color" content="#070c0a" />
+
+    <!-- Fonts: Space Grotesk (display), Inter (body), JetBrains Mono (labels/data) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a href="#home" class="skip-link">Passer au contenu</a>
+
+    <!-- Background Effects -->
+    <div class="bg-noise"></div>
+    <div class="bg-circuit"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="#home" class="logo">Celio<span class="highlight">.</span></a>
+
+        <div class="nav-right">
+          <ul class="nav-links" id="nav-links">
+            <li><a href="#work">Projets</a></li>
+            <li><a href="#about">A propos</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#social">Engagement</a></li>
+          </ul>
+          <!-- CV Button in Nav -->
+          <a href="CV_Portfolio.pdf" target="_blank" class="nav-btn">
+            <i class="fa-solid fa-file-arrow-down"></i> Curriculum Vitae
+          </a>
+          <button
+            class="nav-toggle"
+            id="nav-toggle"
+            aria-label="Toggle navigation menu"
+            aria-expanded="false"
+            aria-controls="nav-links"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <div class="status-pill">
+            <span class="dot"></span> Disponible pour de nouveaux projets
+          </div>
+
+          <h1>
+            Créer des expériences numériques
+            <span class="text-gradient">exceptionnelles</span> <br />
+          </h1>
+
+          <p class="hero-sub">
+            Je suis un ingénieur en formation, dans la spécialité Informatique
+            et Système d'Information
+          </p>
+
+          <div class="hero-actions">
+            <!-- Primary CV Download -->
+            <a
+              href="CV_Portfolio.pdf"
+              download="CV_Portfolio.pdf"
+              class="btn btn-primary"
+            >
+              Télécharger le CV <i class="fa-solid fa-download"></i>
+            </a>
+            <a href="#contact" class="btn btn-secondary"> Contactez moi </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Bento Grid (About, Stack, & Stats) -->
+      <section id="about" class="section">
+        <div class="section-header">
+          <h2>A propos</h2>
+          <div class="line"></div>
+        </div>
+        <div class="bento-grid">
+          <!-- Profile Card -->
+          <div class="card profile-card spotlight">
+            <div class="card-inner">
+              <div class="profile-header">
+                <img
+                  src="Me_Pic.jpeg"
+                  alt="Portrait of Mubarok Hossen Kamil"
+                  class="avatar"
+                />
+                <div>
+                  <h3>Celio WOUCHE KEDI</h3>
+                  <span class="role"
+                    >Etudiant Ingénieur informatique et Système
+                    d'Information</span
+                  >
+                </div>
+              </div>
+              <p class="bio">Basé en France et ouvert à l'international.</p>
+            </div>
+          </div>
+
+          <!-- Tech Stack -->
+          <div class="card stack-card spotlight">
+            <div class="card-inner">
+              <h4><i class="fa-solid fa-layer-group"></i>Compétences</h4>
+              <div class="stack-tags">
+                <span>Jira/Confluence</span>
+                <span>UML</span>
+                <span>Automatisation</span>
+                <span>Javascript</span>
+                <span>PHP/MVC</span>
+                <span>HTML5/CSS3</span>
+                <span>Prompt Engineering</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience / CV Link Card -->
+          <a
+            href="CV_Portfolio.pdf"
+            target="_blank"
+            class="card exp-card spotlight"
+          >
+            <div class="card-inner center-content">
+              <div class="icon-box">
+                <i class="fa-solid fa-briefcase"></i>
+              </div>
+              <div class="exp-text">
+                <h4>3 Stages académiques réalisés</h4>
+                <p>Voir le CV &rarr;</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="work" class="section">
+        <div class="section-header">
+          <h2>Projets réalisés</h2>
+          <div class="line"></div>
+        </div>
+
+        <!-- Populated dynamically from projects.json — add a project there, not here. -->
+        <div class="projects-container" aria-live="polite">
+          <p class="projects-empty">Loading projects…</p>
+        </div>
+      </section>
+
+      <!-- Social/Associative Section -->
+      <section id="social" class="section">
+        <div class="section-header">
+          <h2>Engagement associatif</h2>
+          <div class="line"></div>
+        </div>
+
+        <!-- Populated dynamically from social.json — add an entry there, not here. -->
+        <div class="social-container" aria-live="polite">
+          <p class="projects-empty">Chargement…</p>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="section contact-section">
+        <div class="contact-box spotlight">
+          <h2>Construisons ensemble quelque chose de grand</h2>
+          <p>
+            Je suis toujours ouvert à la discussion concernant la conception de
+            produits, les collaborations ou les opportunités de partenariat.
+          </p>
+
+          <div class="contact-actions">
+            <a href="mailto:celiokedi20@gmail.com" class="email-btn">
+              <i class="fa-solid fa-envelope"></i> Mail
+            </a>
+            <a href="https://wa.me/33663430971" class="whatsapp-btn">
+              <i class="fa-brands fa-whatsapp"></i> WhatsApp
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <div class="footer-content">
+          <p>&copy; <span id="current-year">2025</span> Celio WOUCHE KEDI</p>
+          <div class="footer-links">
+            <a href="CV_Portfolio.pdf" target="_blank">Resume</a>
+            <a href="#home" aria-label="Retour en haut de page"
+              ><i class="fa-solid fa-house"></i
+            ></a>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
