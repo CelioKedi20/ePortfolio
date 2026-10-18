@@ -11,7 +11,13 @@
     "title": "Plateforme de réservation de plats de restaurants",
     "description": "Projet académique en binôme : Application web permettant aux restaurateurs de mettre les plats en ligne, et aux clients de consulter ainsi que de réserver des plats.",
     "icon": "fa-solid fa-laptop-code",
-    "tech": ["HTML/CSS/JS/PHP", "Bootstrap", "VSCode", "Lunacy", "MySQL/Phpmyadmin"],
+    "tech": [
+      "HTML/CSS/JS/PHP",
+      "Bootstrap",
+      "VSCode",
+      "Lunacy",
+      "MySQL/Phpmyadmin"
+    ],
     "github": "#",
     "live": "#"
   },
@@ -27,7 +33,14 @@
     "title": "Blablacar",
     "description": "Projet académique en binôme : Inspiré de la plateforme de Blablacar, visant à consolider les notions en PHP sur le patron de conception MVC.",
     "icon": "fa-solid fa-laptop-code",
-    "tech": ["HTML/CSS/JS", "VSCode", "PHP/MVC", "Apache Netbeans", "Serveur distant", "Github/Git"],
+    "tech": [
+      "HTML/CSS/JS",
+      "VSCode",
+      "PHP/MVC",
+      "Apache Netbeans",
+      "Serveur distant",
+      "Github/Git"
+    ],
     "github": "#",
     "live": "#"
   },
@@ -44,6 +57,14 @@
     "description": "Projet commun avec des camarades de promotion ... ",
     "icon": "fa-solid fa-list-check",
     "tech": ["HTML/CSS/JS", "Bootstrap", "VSCode", "PHP/MVC"],
+    "github": "#",
+    "live": "#"
+  },
+  {
+    "title": "Plateforme d'apprentissage (confidentiel)",
+    "description": "Développeur bénévole pour projet entrepreneurial",
+    "icon": "fa-solid fa-laptop-code",
+    "tech": ["Github/Git", "Python", "Bash/Shell", "PHP"],
     "github": "#",
     "live": "#"
   }
