@@ -26,7 +26,7 @@
     "description": "Projet académique d'ingénierie logicielle en groupe : Application CLI permettant aux enseignants de créer des examens pour les étudiants depuis une banque de questions et aux gestionnaires de gérer les différents profils possibles.",
     "icon": "fa-solid fa-laptop-code",
     "tech": ["JS", "Jasmine", "Caporal.js", "Node.js", "VSCode", "Github/Git"],
-    "github": "#",
+    "github": "https://github.com/HugoHugoHugoHugoHugo/GL02_pafluche",
     "live": "#"
   },
   {
@@ -49,7 +49,7 @@
     "description": "Projet d'entreprise en groupe : Optimiser les tournées des aides soignants pour favoriser le lien social des seniors dans un service EHPAD à domicile, en permettant leur mobilité.",
     "icon": "fa-solid fa-laptop-code",
     "tech": ["HTML/CSS", "VSCode", "React", "Github/Git", "JS/Leaflet"],
-    "github": "#",
+    "github": "https://github.com/jmignon13/Crunch-EPNAK",
     "live": "#"
   },
   {
